@@ -25,7 +25,7 @@ Vue.component('content-component', {
   template: `<div class="content">
     <div id="menu">
       <slot name="header"></slot>
-      <slot name="body"></slot>
+      <slot name="card"></slot>
     </div>
   </div>`
 })
