@@ -1,7 +1,8 @@
 body{font-family: verdana;}
 .logo{
-  height: 60px;
-  margin-right: -60px;
+  height: 50px;
+  margin-right: -55px;
+  margin-bottom: -8px;
 }
 #menu label{
   cursor: pointer;
@@ -53,4 +54,10 @@ body{font-family: verdana;}
 }
 .content{
   height: 100vh;
+}
+.is-left{
+  text-align: left;
+}
+.no-decoration a{
+  text-decoration: none !important;
 }
