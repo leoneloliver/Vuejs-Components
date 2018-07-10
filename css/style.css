@@ -39,6 +39,7 @@ body{font-family: verdana;}
   position: absolute;
   top: 0px;
   height: 108vh;
+  z-index: 9999;
 }
 #menu input[type="checkbox"]:checked ~ .item{
   display: block;
@@ -52,8 +53,10 @@ body{font-family: verdana;}
   margin-left: 0;
   width: 300px;
 }
-.content{
-  height: 100vh;
+.content figure {
+  margin-left: 0;
+  margin-right: 0;
+  text-align: center;
 }
 .is-left{
   text-align: left;
