@@ -11,11 +11,11 @@ Vue.component('header-component',{
       </label>
       <div class="column item has-background-grey-lighter ">
         <ul class="no-decoration">
-          <li><a href="#" class="button is-danger is-outlined is-left"><i class="fa fa-home" aria-hidden="true"></i>&nbsp;home</a></li>
-          <li><a href="#" class="button is-danger is-outlined is-left"><i class="fa fa-info-circle" aria-hidden="true"></i>&nbsp;about us</a></li>     
-          <li><a href="#" class="button is-danger is-outlined is-left"><i class="fa fa-users" aria-hidden="true"></i>&nbsp;clients</a></li>
-          <li><a href="#" class="button is-danger is-outlined is-left"><i class="fa fa-suitcase" aria-hidden="true"></i>&nbsp;careers</a></li>
-          <li><a href="#" class="button is-danger is-outlined is-left"><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;contact</a></li>
+          <li><a href="#" class="button is-danger is-left"><i class="fa fa-home" aria-hidden="true"></i>&nbsp;home</a></li>
+          <li><a href="#" class="button is-danger is-left"><i class="fa fa-info-circle" aria-hidden="true"></i>&nbsp;about us</a></li>     
+          <li><a href="#" class="button is-danger is-left"><i class="fa fa-users" aria-hidden="true"></i>&nbsp;clients</a></li>
+          <li><a href="#" class="button is-danger is-left"><i class="fa fa-suitcase" aria-hidden="true"></i>&nbsp;careers</a></li>
+          <li><a href="#" class="button is-danger is-left"><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;contact</a></li>
         </ul>
       </div>
   </div>`
@@ -46,7 +46,7 @@ Vue.component('body-component',{
 
 Vue.component('footer-component', {
   template: `<footer class="has-background-danger has-text-white-ter">
-    <div class="column has-text-centered ">I is awesome</div>
+    <div class="column has-text-centered ">It is awesome</div>
   </footer>`
 })
 
